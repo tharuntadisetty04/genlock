@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Password Generator",
+    "version": "1.0",
+    "description": "This is a Password Generator chrome extension built with React",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Password Generator",
+        "default_icon": "./logo.png"
+    },
+    "icons": {
+        "512": "./logo.png"
+    },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}
