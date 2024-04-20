@@ -10,15 +10,39 @@
     overflow: hidden;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+@media (max-width:300px) and (max-height:320px) {
+    #outer-div {
+        width: 300px;
+        height: 320px;
+    }
 
-#root {
-    width: 300px;
-    height: 320px;
-    border-radius: 2%;
+    #inner-div {
+        width: 300px;
+        height: 320px;
+        padding: 1rem 1.5rem;
+        border-radius: 0%;
+    }
+
+    #copy-div {
+        margin-top: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 91%;
+    }
+
+    #copy-btn {
+        padding: 0.5rem 0;
+    }
+
+    #options-div {
+        margin-top: 0px;
+        width: 91%;
+    }
+
+    #range-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
