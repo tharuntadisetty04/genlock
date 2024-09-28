@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className='w-full h-screen flex items-center justify-center bg-zinc-100' id='outer-div'>
-        <div className="mx-auto w-[50%] sm:w-full h-[60svh] rounded-lg px-6 border border-zinc-200 bg-zinc-50 flex items-center justify-center flex-col gap-4" id='inner-div'>
+        <div className="mx-auto w-full md:w-[60%] h-[60svh] rounded-lg px-6 border border-zinc-200 bg-zinc-50 flex items-center justify-center flex-col gap-4" id='inner-div'>
           <h1 className='text-2xl text-center font-semibold mb-4 text-blue-500' id='heading'>Password Generator</h1>
 
           <div className='flex rounded-lg mt-2 w-[80%]' id='copy-div'>
