@@ -1,6 +1,6 @@
-# React password generator extension
+# Genlock - password generator extension
 
-- This is a password generator extension developed through **ReactJs**
+- This is a password generator extension developed with **React.js**
 - These are the following steps to setup the project :
 
 ## Setup and Installation
@@ -45,7 +45,7 @@ npm run dev
 ## To clone this project in your IDE
 
 ```bash
-git clone https://github.com/tharuntadisetty04/passwizard.git
+git clone https://github.com/tharuntadisetty04/genlock.git
 ```
 
 ## Run the extension in your browser
@@ -60,7 +60,7 @@ npm i
 ```
 npm run build
 ```
-- Then the dist folder will be created which is used for the following steps/
+- Then the dist folder will be created which is used for the following steps:
 - Open your browser and go to manage extensions in settings.
 - By default developer mode will be *Off* in your browser now turn it *On*.
 - Now click on *Load unpacked* button to load the extension.
